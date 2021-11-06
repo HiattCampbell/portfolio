@@ -1,0 +1,41 @@
+[
+  {
+    "index": 0,
+    "title": "The Green Guide",
+    "description": "The Green Guide aims to aid users on their journeys to becoming environmentalists. Through its tools such as the journal where users can sign in and log their progress to its search for congressional representatives by zip code, the Green Guide is an all in one place for users to learn more about the actions they can take to fight against climate change.",
+    "link": false,
+    "repository": "https://github.com/HiattCampbell/the-green-guide",
+    "pictures": [
+      "https://i.ibb.co/VMrZ1kW/the-green-guide-home.png",
+      "https://cdn-cf-east.streamable.com/video/mp4/lzz18e.mp4?Expires=1636407240&Signature=APQNxHofp1Xy30WGmu6soRMIIMrlhk7Xvqc2KSpgcxXaah1-dQKXOrsez544Nvbc-aewuEsrLj88h-qntT2T1ZeDxkv6isZG8vwqhoftt2vTAwtlakMV0pUZA1VHrpi~dHun1vJczJdtlpOFcRz3RAqjQWPWCPItY3d4I8n3v7FQpBzbskMBaCqRTYVVLgCjr9luVoeyP8KpQ1G~7qOXnu~AeuLtCdjctlT1KZB~BsQ0rZ0JsQGDNUO9-DOWW4TbrZ9cYDb1kd2F3--eg85dG2sH9n3xnx~ws~v3Rkj4ymUqAX7o719WPsWjrEvHfR2RKtPyCjuOs~XaGXC0u4kpWg__&Key-Pair-Id=APKAIEYUVEN4EVB2OKEQ",
+      "https://i.ibb.co/Xz5SDJR/the-green-guide-action.png",
+      "https://cdn-cf-east.streamable.com/video/mp4/l7azhq.mp4?Expires=1636408260&Signature=MDk4sOkuGw73W-BiKpaQ3bDQ2UdnRkB7OhOjIDDOez6wdQPf7fUgOxf7B3BVjipKvVNHxUmtMa~HPiTcOqEKDnwB9SXIsnSgOdYTdsfEqxcQ31DcUQEUhiPJvr9YlKE5T8YzQ4purSnwGzt8av4a2LCNcvcCLtprg6h7pCd76QXfg937xv63j0MC278MU5Ag8PTBtWgt1ihEQ02RHkNXwpC6oYQ4-SgTIZ6RvR08-qyM~GHxdQpu2lkVbvsr02mW4EJzOq2WJIEgi-tnDIZUen2EqdIA-e1d-p~6CB9KO73qC0ezUeF5DXpqmuBan67v7-gw4RShfU88YtpG-XoVrg__&Key-Pair-Id=APKAIEYUVEN4EVB2OKEQ"
+    ]
+  },
+  {
+    "index": 1,
+    "title": "Movie Ratings",
+    "description": "Movie Ratings is a group project that aims to optimizes movie viewers’ experiences and movie theaters’ showings. The API allows users to search for movies, find showings, and read and write reviews of the movies. Movie reviews give theaters the ability to refine their movie selection based on the reviews and ratings left by viewers. This website allows viewers to have a more curated experience at movie theaters, while giving theaters a better idea of how to appeal to their audiences.",
+    "link": "https://js330-movieratings-client.herokuapp.com/#/",
+    "repository": "https://github.com/HiattCampbell/the-green-guide",
+    "pictures": [
+      "https://i.ibb.co/84RVmxs/movie-ratings-home.png",
+      "https://cdn-cf-east.streamable.com/video/mp4/jwq5xp.mp4?Expires=1636411140&Signature=iB3h2x6tYBpPFJVNdrZF2bV~qmQw6INzsh~YZNW6uly6dLKAF2DUdgXpccOLN7ySLBhs-q-1qvS3HHTTCpZA6-fGc3U2J5przFTiryP9FWCvwqxlmfE-sy4Eqy3lki2Ju5z2xh01q7cFIQdihmLjbbXIyexGeQiEzh~2WWYvaFbR-bAMhXCWZmMVhFrGWLPGl~6qdmzK6ZSCOdTl7D3D~KQ04aXkjPd7jQVPJv~xx4znWtJm4bB1PU5s9DiEwpKjJGfZAWQnOpFLIMRlY1pLNV4ocVWEGd6OUKTOwSXI-VLXxZogIl5rkk1-7PvjZhgmu4UPMh~SDvDMH2PjSui75g__&Key-Pair-Id=APKAIEYUVEN4EVB2OKEQ",
+
+      "https://i.ibb.co/sgRJrBt/movie-ratings-admin-area.png",
+      "https://cdn-cf-east.streamable.com/video/mp4/n0v6uy.mp4?Expires=1636411140&Signature=ieXj8YCvUlX2OvlWNm0vy3lBoX1PkYQcysRpsJj4il45eYITVmGFqvTss1eWW0ifiWbPxF-ov-Rw2n9AE4To0Q4NZ90n0z9JVkMyFGDBxpiWUeU8XVvPkuT7~H99kBS5UFprfo1QRKTxYMs~gjc8BdMJjITGasGZ5ni8w2-IyPsm~fvJaA2TDKW1uQ3KN9rrHB3~NdV7uEDbbgvT2Z-y-xbI2uTU3L0lxfrf9v9V3zjsMrogPf6V~jERFJpMerEnzFfTI860E7ImqE4SGSFTs49N5WPzbEj8Bn-jhirvf~4sqAw6Y-tUrLOhtSmpg~9Z688P4jGtT-a7HMYXqPHfJA__&Key-Pair-Id=APKAIEYUVEN4EVB2OKEQ"
+    ]
+  },
+  {
+    "index": 2,
+    "title": "Dress My Run",
+    "description": "Dress My Run is a web page designed to help users wear the most comfortable clothes while running. Dress My Run takes weather, the time of day, and the length of the run into consideration when advising users on what to wear. Users can either enter weather conditions manually or use their zip code to autofill conditions. Overall, Dress My Run removes the task of planning an outfit so all runners have to think about is running.",
+    "link": false,
+    "repository": "https://github.com/HiattCampbell/the-green-guide",
+    "pictures": [
+      "https://i.ibb.co/18KJ2Wd/dress-my-run-home.png",
+      "https://cdn-cf-east.streamable.com/video/mp4/lkh00r.mp4?Expires=1636412100&Signature=La0heBHWdsfhrVuXWy1Ca7KvVZQGuYccZCAhLbkCj3hEfuVOHiygUcfE62Fg2LQRebH15hWyNMpR4RXNypD8jCW0~ZgHAEEZ0Qhn6HLPK3COAaFboFx9tyQmYYZyBVvI9VU~VHt1nDrYT1e-3MEjO83MOILRXvYp7~uoWYE0JsX2uDVrL8jx7Ciu07yJ-kCp7cabE7t2zVzqAaVNelhpfhFbHahUCoM41f7pJAFDy0~juzd8Pk3bM43tCsOaImtqRC~PdhLRl~AVHFpTtVqcUdQAywCOn8NND8Wt935htQnaVQbNVWGd0SwAreEdPxdCgLGuhI6DqTfRJ6NHqZV-GA__&Key-Pair-Id=APKAIEYUVEN4EVB2OKEQ",
+      "https://cdn-cf-east.streamable.com/video/mp4/z1yjqr.mp4?Expires=1636412160&Signature=Bi7gV28CWfrwp3bf7Ua239873K-6QFW9Ff04bHt3QVYfjJM8tzrVlKV9fnAV6KAT2rixX~VUKtYX01dQaWi6JgFWSGuOdaCQSEYc5SpoL4hKCk7PHjLpHdh90Vo0ePsizEkOFTCcXPhpViOnGgMyA3bSQtgSq2A02qsX027WQ5RU3F783s0CgM0Ll-L6g-ATZgZsXOZelHSMkI6eK8OOrdSb8YnhEBHGsAA4dd5~laMu7qfAAKBAWIp-6G-yFRcYIDmruYVlWgabV~CYN3GAhA0Aut6ZofLLiM8c2nTSn8chDuTYRyhELe5VBcw10fqtZ4w-E~mjk~IWMIA3zCB9qQ__&Key-Pair-Id=APKAIEYUVEN4EVB2OKEQ"
+    ]
+  }
+]

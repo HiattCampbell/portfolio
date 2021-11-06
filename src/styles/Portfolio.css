@@ -1,0 +1,68 @@
+.portfolioTitle {
+  font-size: 800%;
+  font-style: italic;
+  text-decoration: none;
+  margin: 0px;
+  animation: portfolioTitleLoad 500ms ease-in;
+}
+
+.projectContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+  justify-content: center;
+  min-height: 400px;
+}
+
+.projectTextContainer {
+  float: left;
+  margin-left: 20px;
+}
+
+.projectTitle {
+  animation: fadeIn linear 1.75s;
+  font-style: italic;
+  font-weight: bolder;
+  text-align: left;
+  margin-bottom: -10px;
+}
+
+.projectDescription {
+  animation: fadeIn linear 1.75s;
+  line-height: 175%;
+  font-size: 110%;
+  max-width: 400px;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arrows {
+  font-size: 150%;
+}
+
+.portfolioHr {
+  border-top: 1px solid #1a3315;
+  width: 75%;
+}
+
+.sliderImg {
+  animation: fadeIn linear 1.75s;
+}
+
+.projectTextContainer > form {
+  text-align: center;
+}
+
+@keyframes portfolioTitleLoad {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}

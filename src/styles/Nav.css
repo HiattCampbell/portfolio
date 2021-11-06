@@ -1,0 +1,20 @@
+.navContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.5px solid;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #1a3315;
+  margin: 0px 10px;
+}
+
+.navLinks > .navLink {
+  margin: 0px 10px;
+}
+
+.navLink:hover {
+  text-decoration: line-through;
+}

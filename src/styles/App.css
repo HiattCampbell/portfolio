@@ -1,0 +1,27 @@
+body {
+  color: #1a3315;
+  font-family: Montserrat, sans-serif;
+  background-color: ivory;
+}
+
+.bodyContainer {
+  margin: 20px;
+}
+
+h1 {
+  /* -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #1a3315;
+  color: ivory; */
+  color: #1a3315;
+  letter-spacing: 1px;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 100;
+}

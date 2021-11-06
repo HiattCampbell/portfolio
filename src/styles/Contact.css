@@ -1,0 +1,73 @@
+.contactContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contactTitle {
+  font-size: 800%;
+  font-style: italic;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 50%;
+  animation: contactTitleLoad 500ms ease-in;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  padding-left: 20px;
+  animation: contactFormLoad 500ms ease-in;
+}
+
+.contactFormLabel {
+  font-weight: bold;
+  font-size: 110%;
+}
+
+.inputBox {
+  margin-bottom: 20px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  border: 0.5px solid #1a3315;
+  background-color: ivory;
+  width: 300px;
+  padding: 5px;
+}
+
+input[type="submit"] {
+  background-color: #1a3315;
+  color: ivory;
+  width: 50%;
+  padding: 10px;
+  margin: 0px;
+  font-weight: bold;
+  font-size: 130%;
+  border: 2px solid #1a3315;
+  border-radius: 25px 25px;
+  text-decoration: none;
+  font-family: "Playfair Display", serif;
+}
+
+@keyframes contactTitleLoad {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes contactFormLoad {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
