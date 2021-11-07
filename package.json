@@ -16,6 +16,7 @@
     "@testing-library/user-event": "^12.8.3",
     "dotenv": "^10.0.0",
     "emailjs-com": "^3.2.0",
+    "fsevents": "^2.3.2",
     "mdb-ui-kit": "^3.9.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -46,5 +47,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HiattCampbell/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HiattCampbell/portfolio/issues"
+  },
+  "homepage": "https://github.com/HiattCampbell/portfolio#readme"
 }
