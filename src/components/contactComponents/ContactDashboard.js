@@ -32,6 +32,11 @@ export default function ContactDashboard() {
       );
   };
 
+  const handleSubmit = (e) => {
+    e.preventDefault;
+    alert("Message sent");
+  };
+
   return (
     <div className="contactContainer">
       <h1 className="contactTitle">Work with Me</h1>
@@ -43,7 +48,12 @@ export default function ContactDashboard() {
           <input className="inputBox" type="email" name="email" />
           <label className="contactFormLabel">Message</label>
           <textarea className="inputBox" name="message" />
-          <input type="submit" value="Send Message" name="message" />
+          <input
+            onClick={handleSubmit}
+            type="submit"
+            value="Send Message"
+            name="message"
+          />
         </form>
       </div>
     </div>
