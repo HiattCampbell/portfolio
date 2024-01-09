@@ -1,0 +1,26 @@
+@keyframes scrollText {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.banner {
+  background-color: #000099;
+  padding: 16px 0;
+  color: #faf9f6;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.banner-text {
+  display: inline-block;
+  animation: scrollText 30s linear infinite;
+}
+
+.banner-text span {
+  margin-right: 40px;
+  font-size: 32px;
+}
