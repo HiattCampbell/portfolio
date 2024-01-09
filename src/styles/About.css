@@ -1,0 +1,82 @@
+.about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 40px;
+}
+
+.aboutTitle {
+  font-size: 1000%;
+  font-style: italic;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  animation: aboutLoad 500ms ease-in;
+}
+
+.headshot {
+  width: 350px;
+  height: 450px;
+  object-fit: cover;
+  margin-top: 10px;
+  animation: headshotLoad 500ms ease-in;
+}
+
+.aboutContainer {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: center;
+}
+
+.aboutTextContainer {
+  margin-left: 40px;
+}
+
+.aboutTextContainer > p {
+  margin: 0px;
+  animation: fadeIn linear 1.5s;
+  line-height: 200%;
+  font-size: 110%;
+}
+
+.connectButton {
+  background-color: #000099;
+  color: #faf9f6;
+  width: auto;
+  font-size: 20px;
+  border: 2px solid #000099;
+  border-radius: 100px;
+  padding: 8px 24px;
+  text-decoration: none;
+  animation: aboutLoad 700ms ease-in;
+  margin-top: 40px;
+}
+
+.connectLink {
+  text-decoration: none;
+  font-weight: 200;
+  font-family: 'HelveticaNeue';
+  color: #faf9f6;
+  padding: 0px;
+  margin: 0px;
+}
+
+@keyframes aboutLoad {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes headshotLoad {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}

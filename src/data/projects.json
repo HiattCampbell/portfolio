@@ -1,0 +1,30 @@
+[
+  {
+    "index": 0,
+    "title": "Concreit",
+    "description": "Concreit is a financial real estate investment application that allows users to invest in real estate through a unique model of fractional shares. At Concreit, Hiatt developed and maintained the marketing website, in addition to working on the React web application. The website is developed on Webflow and Framer. On the Webflow site, Hiatt utilized insertions of Javascript and libraries such as D3.js and jQuery to enhance the functionality. With Framer, Hiatt utilized React components written in Typescript to create dynamic webpages. Additionally, Hiatt leveraged Framer to construct webviews that seamlessly integrated into the mobile application, while significantly reducing build and deployment times for the mobile app.",
+    "link": "https://www.concreit.com/",
+    "repository": false,
+    "pictures": ["https://hiatt-campbell-portfolio.s3.us-east-2.amazonaws.com/concreit-home.png", "https://hiatt-campbell-portfolio.s3.us-east-2.amazonaws.com/concreit-historical-performance.mp4"]
+  },
+  {
+    "index": 1,
+    "title": "The Green Guide",
+    "description": "The Green Guide aims to aid users on their journeys to becoming environmentalists. Through its tools, such as the journal, where users can sign in and log their progress to its search for congressional representatives by zip code, the Green Guide is an all-in-one place for users to learn more about the actions they can take to fight against climate change.",
+    "link": false,
+    "repository": "https://github.com/HiattCampbell/the-green-guide",
+    "pictures": ["https://hiatt-campbell-portfolio.s3.us-east-2.amazonaws.com/the-green-guide-home.png", "https://hiatt-campbell-portfolio.s3.us-east-2.amazonaws.com/the-green-guide-action.png"]
+  },
+  {
+    "index": 2,
+    "title": "Movie Ratings",
+    "description": "Movie Ratings is a group project that aims to optimize movie viewers’ experiences and movie theaters’ showings. The API allows users to search for movies, find showings, and read and write reviews of the movies. Movie reviews give theaters the ability to refine their movie selection based on the reviews and ratings left by viewers. This website allows viewers to have a more curated experience at movie theaters while giving theaters a better idea of how to appeal to their audiences.",
+    "link": false,
+    "repository": "https://github.com/jscript-330-hems/movieratings",
+    "pictures": [
+      "https://hiatt-campbell-portfolio.s3.us-east-2.amazonaws.com/movie-ratings-home.png",
+      "https://hiatt-campbell-portfolio.s3.us-east-2.amazonaws.com/movie-ratings-2.mp4",
+      "https://hiatt-campbell-portfolio.s3.us-east-2.amazonaws.com/movie-ratings-admin-area.png"
+    ]
+  }
+]
