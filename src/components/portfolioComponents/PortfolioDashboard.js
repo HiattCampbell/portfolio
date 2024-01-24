@@ -5,7 +5,7 @@ import ProjectList from './ProjectList';
 export default class PortfolioDashboard extends Component {
   render() {
     return (
-      <div>
+      <div className="portfolio-container">
         <div className="portfolioTitleContainer">
           <h1 className="portfolioTitle">Select Work</h1>
         </div>

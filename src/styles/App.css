@@ -1,8 +1,7 @@
 body {
-  color: #1a3315;
   font-family: 'HelveticaNeue-Thin';
   background-color: #faf9f6;
-  margin: 0;
+  margin: 10000px 0 0;
 }
 
 #root {
@@ -30,4 +29,43 @@ h4,
 h5,
 h6 {
   font-weight: 100;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.portfolioTitle,
+.aboutTitle,
+.contactTitle {
+  font-size: 128px;
+}
+
+.about,
+.homeContainer,
+.portfolio-container,
+.contact-container {
+  margin-top: 96px;
+}
+
+@media only screen and (max-width: 390px) {
+  .portfolioTitle,
+  .aboutTitle,
+  .contact-title {
+    font-size: 72px;
+  }
+  .about,
+  .homeContainer,
+  .portfolio-container,
+  .contact-container {
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (min-width: 390px) and (max-width: 769px) {
+  .portfolioTitle,
+  .aboutTitle,
+  .contact-title {
+    font-size: 96px;
+  }
 }

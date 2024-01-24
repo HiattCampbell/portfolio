@@ -1,28 +1,40 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { slide as Menu } from 'react-burger-menu';
 import { Link } from 'react-router-dom';
 import '../../styles/Nav.css';
 
-export default class Nav extends Component {
-  render() {
-    return (
-      <div>
-        <nav className="navContainer">
-          <Link className="navLink logo" href="" to={`/`}>
-            <h2>Hiatt Campbell</h2>
+export default function Nav() {
+  return (
+    <div>
+      <nav className="nav-container">
+        <Link className="nav-link logo" href="" to={`/`}>
+          <h2 className="logo">Hiatt Campbell</h2>
+        </Link>
+        <div className="nav-links">
+          <Link className="nav-link" href="" to={`/about`}>
+            About
           </Link>
-          <div className="navLinks">
-            <Link className="navLink" href="" to={`/about`}>
+          <Link className="nav-link" href="" to={`/portfolio`}>
+            Portfolio
+          </Link>
+          <Link className="nav-link" href="" to={`/contact`}>
+            Contact
+          </Link>
+        </div>
+        <div className="burger-container">
+          <Menu right>
+            <a className="nav-link" href="/about">
               About
-            </Link>
-            <Link className="navLink" href="" to={`/portfolio`}>
+            </a>
+            <a className="nav-link" href="/portfolio">
               Portfolio
-            </Link>
-            <Link className="navLink" href="" to={`/contact`}>
+            </a>
+            <a className="nav-link" href="/contact">
               Contact
-            </Link>
-          </div>
-        </nav>
-      </div>
-    );
-  }
+            </a>
+          </Menu>
+        </div>
+      </nav>
+    </div>
+  );
 }

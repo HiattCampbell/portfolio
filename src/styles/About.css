@@ -17,7 +17,7 @@
   width: 350px;
   height: 450px;
   object-fit: cover;
-  margin-top: 10px;
+  margin-top: 16px;
   animation: headshotLoad 500ms ease-in;
 }
 
@@ -78,5 +78,25 @@
 
   100% {
     transform: translateY(0);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .aboutContainer {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .aboutTextContainer {
+    margin-left: 0;
+    align-items: flex-start;
+  }
+  .aboutTitle {
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 391px) {
+  .headshot {
+    width: 200px;
+    height: auto;
   }
 }

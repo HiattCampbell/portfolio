@@ -25,9 +25,9 @@ export default function Project(props) {
           {props.project.pictures.map((picture, index) => {
             return (
               <div className={index === current ? 'slide active' : 'slide'} key={index} id="slideImg">
-                {(index === current && picture.includes('png') && <img className="sliderImg" style={{ width: '600px' }} src={picture} />) ||
+                {(index === current && picture.includes('png') && <img className="sliderImg" src={picture} />) ||
                   (index === current && (
-                    <video className="sliderImg" style={{ width: '600px' }} autoPlay loop>
+                    <video className="sliderImg" autoPlay loop>
                       <source src={picture} type="video/mp4" />
                     </video>
                   ))}
@@ -40,7 +40,7 @@ export default function Project(props) {
           </div>
         </div>
         <div className="projectTextContainer">
-          <h1 className="projectTitle">{props.project.title}</h1>
+          <h2 className="projectTitle">{props.project.title}</h2>
           <p className="projectDescription">{props.project.description}</p>
           {props.project.link === false ? (
             <form action={props.project.repository}>
