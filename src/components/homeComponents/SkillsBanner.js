@@ -1,30 +1,17 @@
-import React from 'react';
 import '../../styles/SkillsBanner.css';
 
 export default function SkillsBanner() {
   const texts = [
+    'C++',
+    'Python',
     'JavaScript',
     'TypeScript',
     'React',
-    'HTML',
-    'CSS',
-    'Liquid',
-    'Bootstrap',
     'Node.js',
     'Express.js',
+    'SQL',
     'MongoDB',
-    'NoSQL',
-    'JavaScript',
-    'TypeScript',
-    'React',
-    'HTML',
-    'CSS',
-    'Liquid',
-    'Bootstrap',
-    'Node.js',
-    'Express.js',
-    'MongoDB',
-    'NoSQL',
+    'NoSQL'
   ];
   return (
     <div className="banner">

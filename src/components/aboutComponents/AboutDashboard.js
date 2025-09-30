@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import { Link } from 'react-router-dom';
 import profileImg from '../../images/profileImg.png';
 import '../../styles/About.css';
@@ -14,10 +14,7 @@ export default class AboutDashboard extends Component {
           <div className="aboutTextContainer">
             <h1 className="aboutTitle">About</h1>
             <p>
-              Hiatt is a Web Developer based in the Greater Seattle Area, blending a creative vision with technical expertise. In her recent role, she played a pivotal part in developing, maintaining,
-              and optimizing a marketing website. Notably, she developed a React-based web application project that enhanced user experience significantly. Proficient in a range of technologies,
-              including React, Javascript, and Typescript, and skilled in managing marketing communications through templating languages, such as Liquid Templating Language, she constantly seeks to
-              merge innovation with functionality in her work.
+              Hiatt is a Software Developer based in the Greater Seattle Area, blending a creative vision with technical expertise. In her recent role, she played a pivotal part in developing, maintaining, and optimizing a marketing website. Beyond front-end development, her computer science background has strengthened her skills in algorithms, data structures, and systems programming, preparing her to tackle complex software challenges. Proficient in C++, Python, SQL, and JavaScript/TypeScript, with experience designing and integrating RESTful APIs, building database-driven applications, and working with backend frameworks, she brings a detail-oriented and problem-solving mindset to every project.
             </p>
           </div>
         </div>
