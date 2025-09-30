@@ -1,5 +1,4 @@
-import React from 'react';
-import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import About from '../../pages/About';
 import Contact from '../../pages/Contact';
 import Home from '../../pages/Home';
@@ -10,7 +9,7 @@ import Nav from './Nav';
 
 function App() {
   return (
-    <Router>
+    <>
       <Nav />
       <Routes className="bodyContainer">
         <Route exact path="/" element={<Home />} />
@@ -19,7 +18,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
-    </Router>
+    </>
   );
 }
 
