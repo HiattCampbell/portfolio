@@ -7,7 +7,7 @@ export default function HomeDashboard() {
     <div className="homeContainer">
       <div className="intro">
         <HomeLinks />
-        <h2 className="intro-paragraph">Hiatt Campbell is a software developer in based in Seattle with experience building full-stack applications and creating user-focused solutions.</h2>
+        <h2 className="intro-paragraph">Hiatt Campbell is a software developer based in Seattle with experience building full-stack applications, designing database-backed APIs, and working with relational databases.</h2>
       </div>
       <SkillsBanner />
     </div>

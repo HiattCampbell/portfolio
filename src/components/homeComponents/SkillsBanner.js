@@ -11,6 +11,16 @@ export default function SkillsBanner() {
     'Express.js',
     'SQL',
     'MongoDB',
+    'NoSQL',
+    'C++',
+    'Python',
+    'JavaScript',
+    'TypeScript',
+    'React',
+    'Node.js',
+    'Express.js',
+    'SQL',
+    'MongoDB',
     'NoSQL'
   ];
   return (
