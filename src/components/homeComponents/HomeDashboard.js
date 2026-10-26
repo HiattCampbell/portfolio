@@ -1,4 +1,3 @@
-import React from 'react';
 import '../../styles/Home.css';
 import HomeLinks from './HomeLinks';
 import SkillsBanner from './SkillsBanner';
@@ -8,7 +7,7 @@ export default function HomeDashboard() {
     <div className="homeContainer">
       <div className="intro">
         <HomeLinks />
-        <h2 className="intro-paragraph">Hiatt Campbell is a web developer in Seattle with experience designing, building, and optimizing websites.</h2>
+        <h2 className="intro-paragraph">Hiatt Campbell is a software developer based in Seattle with experience building full-stack applications, designing database-backed APIs, and working with relational databases.</h2>
       </div>
       <SkillsBanner />
     </div>
