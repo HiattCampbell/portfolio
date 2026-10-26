@@ -25,7 +25,7 @@ export default function Project(props) {
           {props.project.pictures.map((picture, index) => {
             return (
               <div className={index === current ? 'slide active' : 'slide'} key={index} id="slideImg">
-                {(index === current && picture.includes('png') && <img className="sliderImg" src={picture} />) ||
+                {(index === current && picture.includes('png') && <img className="sliderImg" src={picture} alt={`${props.project.title} project screenshot ${index + 1}`} />) ||
                   (index === current && (
                     <video className="sliderImg" autoPlay loop>
                       <source src={picture} type="video/mp4" />
